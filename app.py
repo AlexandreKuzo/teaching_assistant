@@ -16,6 +16,7 @@ load_dotenv(dotenv_path)
 
 # On récupère la clé API 
 openai.api_key = os.environ.get('OPENAI_API_KEY')
+image = os.path.join("./image.png")
 
 def prompt(question):
    response = openai.Completion.create(
@@ -35,6 +36,7 @@ def prompt(question):
 #### Interface Streamlit ####
 
 st.set_page_config(page_title="Mon super assistant IA", layout="centered")
+st.image(image, caption='Mon assistant :-)', use_column_width=True)
 st.title(f"Mon super assistant IA")
 
 # On stocke l'historique de la conversation
