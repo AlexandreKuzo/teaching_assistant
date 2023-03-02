@@ -1,7 +1,7 @@
 # Un assistant conversationnel avec Streamlit & OpenAI
 
 Cette petite app est un chatbot qui s'appuie sur l'API OpenAI et le modèle "text-davinci-003". On simule une conversation avec un automate qui répond à vos questions. 
-[Streamlit]https://streamlit.io/ permet rapidement d'avoir une interface friendly et rapide à déployer en ligne.
+[Streamlit](https://streamlit.io/) permet rapidement d'avoir une interface friendly et rapide à déployer en ligne.
 
 ## Contenu du dossier
 - Le fichier app.py qui contient l'application en elle-même. 
